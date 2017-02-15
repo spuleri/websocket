@@ -11,12 +11,16 @@ spuleri@ufl.edu
 `cd client && javac *.java`
 
 ## Run Server
-`java Server <port number>`  
-Ex: `java Server 8080`
+`java server <port number>`  
+Ex: `java server 8080`
 
 ## Run Client
 `java Client <host name> <port number>`  
-Ex: `java Client localhost 8080`
+Ex: `java client localhost 8080`
+
+## Running on UF CISE machines:
+- Transfer zip file of source code to machine by your method of choice
+- Follow above instructions to compile and run server and client
 
 ## Code Structure
 There are two directories:
